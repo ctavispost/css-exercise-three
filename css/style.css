@@ -16,7 +16,7 @@ body {
 
 nav {
   margin: 0;
-  padding: 10px 0 20px 15px;
+  padding: 10px 0 10px 15px;
   position: fixed;
   width: 420px;
   background-color: #000000;
@@ -47,16 +47,22 @@ div.location:hover {
   font-weight: 600;
   line-height: 1.5;
   padding-top: 3%;
+  /*display: inline;*/
   /*padding-left: 3%;*/
 }
 
 .content h3 {
   font-size: 1.3em;
   font-weight: 400;
+  display: inline;
 }
 
-.arrow{
+.arrow {
   width: 5%;
   padding: 5% 0 5% 0;
   float: right;
+}
+
+.arrow-left {
+  padding: 2% 0 2% 0;
 }
