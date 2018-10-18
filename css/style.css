@@ -27,34 +27,32 @@ nav {
   width: 100%;
 }
 
-div {
-  float: left;
-}
-
-div.location {
+.location {
   background-color: #DADADA;
   padding: 3% 5% 3% 5%;
   width:100%;
   border-bottom: 1px solid #999999;
+  display: inline-block;
 }
 
-div.location:hover {
+.location:hover {
   background-color: #AAAAAA;
 }
 
-.content h1 {
+.content {
+  float: left;
+}
+
+h1 {
   font-size: 2em;
   font-weight: 600;
   line-height: 1.5;
   padding-top: 3%;
-  /*display: inline;*/
-  /*padding-left: 3%;*/
 }
 
-.content h3 {
+h3 {
   font-size: 1.3em;
   font-weight: 400;
-  display: inline;
 }
 
 .arrow {
